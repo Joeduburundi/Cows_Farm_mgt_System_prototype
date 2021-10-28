@@ -1,0 +1,600 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*the beginning of the styling*/
+
+/** {
+	box-sizing:border-box;
+}*/
+
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #404040;
+}
+
+.logologo img{
+          opacity: 0.5;
+          margin: 20px 10px 10px 0px;
+
+}
+
+#company {
+    line-height: 20px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+.over h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans, Comic Sans MS" ,serif;
+}
+
+.over h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans, Comic Sans MS" ,serif;
+}
+.over p {
+
+    }
+.welcome p {
+    margin: 1% 20% 1% 20%;
+    color: gray;
+}
+.welcome h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans, Comic Sans MS" ,serif;
+}
+.offer{
+   
+    background-color: #f6f6f6;
+}
+
+.offer p {
+    margin: 1% 20% 1% 20%;
+    color: gray;
+}
+.offer h1{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans, Comic Sans MS" ,serif;
+}
+
+.farmers{
+    background-color: #fff;
+    width: 100%;
+    
+}
+
+.farmers p {
+    margin: 1% 20% 1% 20%;
+    color: gray;
+}
+.farmers h1{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Comic Sans, Comic Sans MS" ,serif;
+}
+.logologo{
+	background-color:#fcefc5;               
+    height: 30vh;
+}
+
+.welcome{
+    background-color: #ffc107;
+    width: 100%;
+    
+}
+
+.offerLabel{
+  font-weight: bold;
+  font-family: "Comic Sans, Comic Sans MS" ,serif;
+}
+
+
+/*.nav{
+	width: 70%;
+	height: 10vh;
+	margin: 0 auto;
+	background-color: #403126;
+}*/
+
+
+
+
+.bg-img{
+  width: 100%;
+
+}
+.welc{
+  width: 100%;
+}
+
+.contacts{
+  color: #fff;
+}
+
+.buy{
+  display: inline-block;
+  color: green;
+}
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase
+}
+
+.navbar .nav {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.2rem
+}
+
+.navbar-inverse {
+  background-color: #003300
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #002200
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  background-color: #003300
+}
+
+.dropdown-menu {
+  background-color: #006B00
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-color: #002200
+}
+
+.navbar-inverse {
+  background-image: none;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  background-image: none;
+}
+
+.navbar-inverse {
+  border-color: #003300
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+  color: #FFCC00
+}
+
+.dropdown-menu>li>a {
+  color: #FFFFFF
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+  color: #FFCC00
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-top-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+  border-bottom-color: #FFFFFF
+}
+
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+  border-bottom-color: #FFFFFF
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/*footer style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+/*styling for about us page
+*/
+
+.bg-img2{
+    background-image:url(../images/img_about.jpg);
+    background-repeat: no-repeat;
+}
+
+.history{
+  background-color: #fff;
+  height: 110vh;
+  width: 65%;
+  margin: 70px 100px 10px 150px;
+}
+.left h1{
+   font-family: 'Montserrat', serif;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.right h1{
+   font-family: 'Montserrat', serif;
+   font-size: 20px;
+   font-weight: bold;
+}
+.left img{
+  opacity: 0.6;
+}
+
+.contact{
+  background-color: #fff;
+  width: 100%;
+  margin: 70px 100px 10px 50px;
+}
+
+.contact h1{
+   
+   font-family: 'Montserrat', serif;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.products{
+  /*background-color: #f6f6f6;
+  height: 110vh;*/
+  width: 100%;
+  margin-top: 10%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+
+  /*margin: 70px 100px 10px 150px;*/
+}
+
+.products h2{
+  background-color: #0062cc;
+  color: #fff;
+  width: 200px;
+  font-size: 24px;
+  padding: 5px;
+  height: 40px;
+}
+
+.products h2::after{
+  content: '';
+  border-top: 40px solid #0062cc;
+  border-right: 40px solid transparent;
+  position: relative;
+  left: 40px;
+  top: 34px;
+
+}
+
+.row{
+  margin: 30px;
+}
+.products h1{
+   font-family: 'Montserrat', serif;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.product-bottom .fa{
+   color: #28a745;
+   font-size: 10px;
+}
+
+.product-bottom h3{
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.product-bottom h5{
+   font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.overlay{
+  /*background-color: #fff;*/
+  display: block;
+  opacity: 0px;
+  position: absolute;
+  top: 10%;
+  margin-left: 0px;
+  width: 70px;  
+}
+
+.product-top:hover .overlay{
+  opacity: 1px;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+
+.overlay .fa{
+  /*background-color: #fff;*/
+  /*cursor: pointer;
+  
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 10px;
+  padding: 7px;
+  margin: 5%;
+  margin-top: 5%;*/
+}
+
+
+.overlay .li{
+  background-color: #fff;
+  /*cursor: pointer;
+  
+  color: #000;
+  height: 35px;
+  width: 35px;
+  font-size: 10px;
+  padding: 7px;
+  margin: 5%;
+  margin-top: 5%;*/
+}
+.papa_photo{
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.price{
+  color:red;
+}
